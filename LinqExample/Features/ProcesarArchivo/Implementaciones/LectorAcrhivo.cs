@@ -26,6 +26,9 @@ namespace LinqExample.Features.ProcesarArchivo.Implementaciones
                 row.Add(fila.Cell(1).GetValue<String>());
                 row.Add(fila.Cell(2).GetValue<String>());
                 row.Add(fila.Cell(3).GetValue<String>());
+                row.Add(fila.Cell(4).GetValue<String>());
+                row.Add(fila.Cell(5).GetValue<String>());
+                row.Add(fila.Cell(6).GetValue<String>());
                 datos.Add(row);
             }
             return datos;
