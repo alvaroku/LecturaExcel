@@ -20,7 +20,7 @@ namespace LinqExample
 
              foreach(ArrayList dato in DatosLeidos)
             {
-                Console.WriteLine($"{dato[0]} {dato[1]} {dato[2]}");
+                Console.WriteLine($"{dato[0]} {dato[1]} {dato[2]} {dato[3]} {dato[4]} {dato[5]}");
             }                   
         }
     }
